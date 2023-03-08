@@ -33,7 +33,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="titulo">
-        <img src={require('../Imagenes/clinicaces.png')} alt="logo Clinica" className="Imagen" />
+        <img src={require('../Imagenes/login-clinicaces.png')} alt="logo Clinica" className="Imagen" />
         <h1>Portal web para programación de Cirugía</h1>
         <h1>Clínica CES</h1>
       </div>

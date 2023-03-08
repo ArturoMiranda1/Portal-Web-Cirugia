@@ -1,6 +1,5 @@
 import React from 'react';
-import './Estilos.css';
-import { IonIcon } from '@ionic/react';
+import '../Estilos/Login.css';
 
 export function ProgramarCirugia() {
   return (
@@ -10,12 +9,12 @@ export function ProgramarCirugia() {
           <form action="">
             <h2>Programar Cirugía</h2>
             <div className="cajainput">
-              <IonIcon name="person-outline" />
+              <ion-icon name="person-circle-outline"></ion-icon>
               <input type="Usuario" required />
               <label htmlFor="">Usuario</label>
             </div>
             <div className="cajainput">
-              <IonIcon name="lock-closed-outline" />
+              <ion-icon name="lock-closed-outline"></ion-icon>
               <input type="Clave" required />
               <label htmlFor="">Clave</label>
             </div>
@@ -34,7 +33,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="titulo">
-        <img src={require('../componentes/clinicaces.png')} alt="logo Clinica" className="Imagen" />
+        <img src={require('../Imagenes/clinicaces.png')} alt="logo Clinica" className="Imagen" />
         <h1>Portal web para programación de Cirugía</h1>
         <h1>Clínica CES</h1>
       </div>

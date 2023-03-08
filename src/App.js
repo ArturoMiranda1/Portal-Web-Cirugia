@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <Header />
       <ProgramarCirugia />
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-icon name="person-circle-outline"></ion-icon>
     </div>
   );
 }
